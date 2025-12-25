@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Connect | NETWORTH.DEV</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Stack+Sans+Notch:wght@200..700&display=swap" rel="stylesheet">
+<link rel="shortcut icon" href="pics/istockphoto-1211589340-612x612.jpg" type="image/x-icon">
+<style>
+/* ===== RESET ===== */
+*{margin:0;padding:0;box-sizing:border-box}
+body{
+    min-height:100vh;
+    background:
+        linear-gradient(rgba(0,0,0,.85),rgba(0,0,0,.85)),
+        url('pics/istockphoto-1514138928-640x640.avif') center/cover fixed;
+    font-family:system-ui,sans-serif;
+    color:whitesmoke;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+/* ===== CONTAINER ===== */
+.wrapper{
+    width:100%;
+    max-width:520px;
+    padding:40px 20px;
+    text-align:center;
+    backdrop-filter:blur(12px);
+    border:1px solid #333;
+    border-radius:20px;
+    box-shadow:0 0 30px rgba(129,74,200,.2);
+}
+
+/* ===== BRAND ===== */
+.logo{
+    font-family:"Stack Sans Notch",sans-serif;
+    font-size:2.2rem;
+    margin-bottom:10px;
+    background:linear-gradient(60deg,whitesmoke,#814ac8);
+    -webkit-background-clip:text;
+    color:transparent;
+    text-shadow:0 0 15px #814ac8;
+}
+
+.tagline{
+    font-family:"Caveat",cursive;
+    font-size:1.3rem;
+    margin-bottom:30px;
+    color:#ccc;
+}
+
+/* ===== LINKS ===== */
+.link{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    height:55px;
+    margin:15px 0;
+    border-radius:12px;
+    font-weight:bold;
+    text-decoration:none;
+    color:whitesmoke;
+    border:1px solid #444;
+    background:linear-gradient(120deg,black,#1a1a1a);
+    transition:.3s;
+}
+
+.link:hover{
+    transform:translateY(-3px);
+    border-color:#814ac8;
+    box-shadow:0 0 15px rgba(129,74,200,.4);
+}
+
+/* PRIMARY CTA */
+.link.primary{
+    background:linear-gradient(120deg,#814ac8,black);
+    border:none;
+}
+
+/* ===== FOOTER ===== */
+.footer{
+    margin-top:30px;
+    font-size:.85rem;
+    color:#777;
+}
+
+/* ===== TV / LARGE SCREEN ===== */
+@media(min-width:1600px){
+    .wrapper{max-width:680px}
+    .logo{font-size:3rem}
+    .link{height:65px;font-size:1.1rem}
+}
+</style>
+</head>
+
+<body>
+
+<div class="wrapper">
+
+    <div class="logo">NETWORTH.DEV</div>
+    <div class="tagline">Let’s build something powerful.</div>
+
+    <!-- CONTACT LINKS -->
+    <a href="mailto:perpj339@gmail.com" class="link primary">📧 Email Me</a>
+    <a href="https://wa.me/Number not found" class="link">💬 WhatsApp</a>
+
+    <!-- SOCIAL MEDIA -->
+    <a href="#" class="link">🌍 Portfolio Website</a>
+    <a href="#" class="link">🐦 Twitter / X</a>
+    <a href="#" class="link">📸 Instagram</a>
+    <a href="#" class="link">💼 LinkedIn</a>
+    <a href="https://github.com/httpsd3v" class="link">💻 GitHub</a>
+
+    <div class="footer">
+        © 2025 NETWORTH.DEV — All Rights Reserved
+    </div>
+
+</div>
+
+</body>
+</html>
